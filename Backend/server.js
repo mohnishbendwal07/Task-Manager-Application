@@ -6,8 +6,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const taskRoutes = require("./routes/tasks");
-const authRoutes = require("./routes/auth");
+const taskRoutes = require("./Routes/tasks");
+const authRoutes = require("./Routes/auth");
 
 app.use("/tasks", taskRoutes);
 app.use("/auth", authRoutes);

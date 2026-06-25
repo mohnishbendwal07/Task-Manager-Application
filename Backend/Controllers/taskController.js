@@ -3,7 +3,7 @@ const path = require("path");
 
 const filePath = path.join(
     __dirname,
-    "../data/tasks.json"
+    "../Data/tasks.json"
 );
 
 exports.getTasks = (req, res) => {
